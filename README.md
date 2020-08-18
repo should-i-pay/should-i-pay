@@ -3,7 +3,7 @@
 ![logo](./assets/images/cover.png)
 
 ## Installation 
-Clone repo
+`git clone https://github.com/should-i-pay/should-i-pay.git`
 
 ```bash
 cd should-i-pay
