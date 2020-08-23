@@ -9,6 +9,8 @@ interface AwesomeViewProps {
 const AwesomeView: React.FunctionComponent<AwesomeViewProps> = (props) => {
 	const { eva, style, ...restProps } = props
 
+	console.log('sss')
+
 	return (
 		<View
 			{...restProps}

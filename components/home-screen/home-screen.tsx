@@ -1,18 +1,17 @@
 import React from 'react'
-import { StyleSheet } from 'react-native'
 import { Layout, Text } from '@ui-kitten/components'
 
-const styles = StyleSheet.create({
-	container: {
-		flex: 1,
-		justifyContent: 'center',
-		alignItems: 'center',
-	},
-})
+import { styles } from './styles.module'
 
-export const HomeScreen = () => (
+interface HomeScreenProps {
+	myProp: string
+}
+
+export const HomeScreen: React.FunctionComponent<HomeScreenProps> = (props) => (
 	<Layout style={styles.container}>
 		<Text category="h1">HOME</Text>
 	</Layout>
+
+// sdsds
 )
 
