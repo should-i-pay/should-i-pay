@@ -6,9 +6,9 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "eject": "expo eject",
-    "test": "jest --watchAll",
-    "lint": "npx eslint . --ignore-path .gitignore",
-    "lint:fix": "npx eslint . --fix --ignore-path .gitignore"
+    "test": "jest",
+    "lint": "eslint . --ignore-path .gitignore",
+    "lint:fix": "eslint . --fix --ignore-path .gitignore"
   },
   "jest": {
     "preset": "jest-expo"
