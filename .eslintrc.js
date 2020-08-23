@@ -25,6 +25,7 @@ module.exports = {
 		'plugin:react/recommended',
 	],
 	rules: {
+		'no-console': 2,
 		// indent
 		indent: indentRule,
 		'@typescript-eslint/indent': indentRule,
