@@ -35,6 +35,14 @@ module.exports = {
 		'comma-dangle': ['error', 'always-multiline'],
 
 		// typescript
+		'@typescript-eslint/no-use-before-define': [
+			'error',
+			{
+				'variables': true,
+				'functions': true,
+				'classes': false,
+			},
+		],
 		'@typescript-eslint/explicit-member-accessibility': 'off',
 		'@typescript-eslint/explicit-function-return-type': 'off',
 		'@typescript-eslint/ban-ts-ignore': 'off',
