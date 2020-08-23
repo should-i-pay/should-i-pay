@@ -12,7 +12,7 @@ export default function EditScreenInfo({ path }: { path: string }) {
 		<View>
 			<View style={styles.getStartedContainer}>
 				<Text
-					style={styles.getStartedText}
+					style={styles.getStartedTexts}
 					lightColor="rgba(0,0,0,0.8)"
 					darkColor="rgba(255,255,255,0.8)"
 				>
