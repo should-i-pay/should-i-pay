@@ -8,5 +8,15 @@
 ```bash
 cd should-i-pay
 npm install
+```
+
+Если `expo` не установлен глобально, то:
+
+```bash
+npm run npx-start
+```
+
+Если установлен
+```
 npm start
 ```
