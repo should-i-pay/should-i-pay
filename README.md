@@ -1,4 +1,5 @@
 # Should I Pay
+![ESLint](https://github.com/should-i-pay/should-i-pay/workflows/ESLint/badge.svg)
 
 ![logo](./assets/images/cover.png)
 
